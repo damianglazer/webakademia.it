@@ -1,0 +1,22 @@
+body{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.welcome{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.welcome > div{
+  font-size: 35px;
+  font-weight: normal;
+}
